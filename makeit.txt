@@ -1,0 +1,7 @@
+"sample"
+{
+	"base"		"nutscript"
+	"title"		"MakeIt"
+	"author"	"Lemano"
+	"menusystem"	"1"
+}

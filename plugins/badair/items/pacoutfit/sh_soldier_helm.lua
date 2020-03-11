@@ -27,7 +27,8 @@ ITEM.pacData = {
 		},
 	},
 }
-
+ITEM.durability = 10
+ITEM.isEquipped = false
 
 verifyItem = function(item)
 	local char = item.player:getChar()
@@ -46,6 +47,14 @@ verifyItem = function(item)
 end
 
 ITEM.functions = ITEM.functions or {}
+
+hook.Add("EntityTakeDamage", "helmproof", function(target, dmginfo)
+	if (SERVER) then
+		if(target:IsPlayer() and isItemEquiped(target:getChar():getInv():hasItem("soldier_helm")) ) then
+			setArmor(target, dmginfo, target:getChar():getInv():hasItem("soldier_helm"), 0.2)
+		end
+	end
+end)
 
 ITEM:hook("Equip", function(item)
 	if (SERVER) then

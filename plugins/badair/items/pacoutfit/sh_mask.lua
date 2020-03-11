@@ -1,8 +1,9 @@
 ITEM.name = "Máscara de Gás"
-ITEM.model = Model("models/warz/items/riot_crate.mdl")
+ITEM.model = Model("models/tnb/items/aphelion/gasmask.mdl")
 ITEM.width = 2
 ITEM.height = 2
 ITEM.desc = "Uma máscara que te protege do corona."
+ITEM.outfitCategory = "mask"
 ITEM.pacData = {
 	[1] = {
 		["children"] = {
@@ -10,17 +11,17 @@ ITEM.pacData = {
 				["children"] = {
 				},
 				["self"] = {
-					["Angles"] = Angle(88.867, 0.002, 0.002),
-					["Position"] = Vector(-64.841888, 0.420624, -1.241966),
-					["UniqueID"] = "3219981118",
-					["Model"] = "models/warz/gasmask2.mdl",
+					["Angles"] = Angle(88.677, -13.225, 27.727),
+					["Position"] = Vector(-0.637207, -1.833221, -0.034576),
+					["UniqueID"] = "3069222848",
+					["Model"] = "models/tnb/items/aphelion/gasmask.mdl",
 					["ClassName"] = "model",
 				},
 			},
 		},
 		["self"] = {
 			["ClassName"] = "group",
-			["UniqueID"] = "1785358359",
+			["UniqueID"] = "3069222848",
 			["EditorExpand"] = true,
 		},
 	},

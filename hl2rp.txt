@@ -1,7 +1,0 @@
-"sample"
-{
-	"base"		"nutscript"
-	"title"		"HL2 RP"
-	"author"	"Chessnut"
-	"menusystem"	"1"
-}

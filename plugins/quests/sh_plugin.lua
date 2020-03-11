@@ -12,6 +12,7 @@ PLUGIN.maxQuestsim = 2 -- The number of the quest that player can do simultaneou
 local entityMeta = FindMetaTable("Entity")
 local playerMeta = FindMetaTable("Player")
 
+
 function PLUGIN:RegisterQuest( str, data )
 	if self.quests[ str ] then
 		print( 'Sorry, ' .. str .. ' is already exists.' )
@@ -29,6 +30,7 @@ nut.util.include("sh_quests.lua")
 -- derma will do like AddDesc( ... )
 -- unpack( table )
 -- Register quests
+
 
 function playerMeta:GetQuests()
 	return self:getNetVar( "questAssigned", {} )
@@ -87,6 +89,7 @@ function playerMeta:GiveQuestReward( str )
 				end
 			end
 		end
+		self:RemoveQuest(str)
 		d_qst:RemoveQuestItem( self, qdat )
 		d_qst:PostReward( self, qdat )
 	end
