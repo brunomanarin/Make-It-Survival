@@ -2,7 +2,14 @@
  A Nutscript based semi-roleplay gamemode for Garry's Mod.
 
 ## Instalation
- Extract content to your garrysmod/gamemodes folder and rename it to "makeit" (without quotations).
+
+ First you'll need Nutscript Framework:
+ 
+ https://github.com/rebel1324/NutScript
+ 
+ Extract content to your garrysmod/gamemodes folder and rename it to "nutscript" (without quotations).
+ 
+ Then extract the files from this repository to the same folder and rename the source folder to "makeit" (also without quotations).
  
  You'll also need the workshop content for it to work properly, here is the link:
  
