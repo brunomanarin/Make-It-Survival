@@ -5,7 +5,7 @@
 
  1. First you'll need Nutscript Framework:
 
- [Link to the Github Repo](https://github.com/rebel1324/NutScript)
+     [Link to the Github Repo](https://github.com/rebel1324/NutScript)
  
  2. Extract content to your garrysmod/gamemodes folder and rename it to "nutscript" (without quotations).
  
@@ -13,7 +13,7 @@
  
  4. You'll also need the workshop content for it to work properly, here is the link:
  
- [Make!t Survival Workshop content](https://steamcommunity.com/sharedfiles/filedetails/?id=2003950696)
+     [Make!t Survival Workshop content](https://steamcommunity.com/sharedfiles/filedetails/?id=2003950696)
  
  
  if there are any doubts, you can also add me on Steam. I'll be happy to oblige.
