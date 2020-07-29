@@ -1,7 +1,7 @@
 # Make !t Survival
  A Nutscript based semi-roleplay gamemode for Garry's Mod.
 
-## Instalation
+## Installation
 
  1. First you'll need Nutscript Framework:
 
